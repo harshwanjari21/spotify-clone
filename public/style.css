@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -32,7 +31,6 @@ body {
     width: 75vw;
     margin: 16px 0;
     position: relative;
-    /* overflow-x: hidden; */
 }
 
 .home ul li {
@@ -114,7 +112,6 @@ body {
 
 .card>* {
     padding-top: 10px;
-
 }
 
 .card img {
@@ -136,15 +133,12 @@ body {
     transition: all 1s ease-out;
 }
 
-
-
 .buttons>* {
     margin: 0 12px;
 }
 
 .signupbtn {
     background-color: rgb(34, 34, 34);
-    ;
     color: rgb(134, 128, 128);
     font-weight: bold;
     border: none;
@@ -153,18 +147,15 @@ body {
 }
 
 .signupbtn:hover {
-
     font-size: 1.01rem;
     color: white;
     cursor: pointer;
 }
 
-
 .loginbtn {
     width: 79px;
     padding: 10px;
     background-color: white;
-    ;
     color: black;
     font-weight: 800;
     border-radius: 21px;
@@ -187,7 +178,6 @@ body {
     filter: invert(1);
     width: 70vw;
     min-height: 40px;
-
 }
 
 .songbuttons {
@@ -205,7 +195,6 @@ body {
 .songlist ul {
     padding: 0 12px;
 }
-
 
 .songlist li {
     list-style: decimal;
@@ -271,7 +260,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-    ;
 }
 
 .timevol {
@@ -285,7 +273,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
-
 }
 
 .range input {
@@ -304,7 +291,6 @@ body {
     width: 125px;
 }
 
-
 .hamburger {
     display: none;
 }
@@ -315,7 +301,6 @@ body {
     align-items: center;
     gap: 14px;
 }
-
 
 @media (max-width: 1352px) {
     .left {
@@ -389,4 +374,4 @@ body {
     .card {
         width: 84vw;
     }
-}
+} 
